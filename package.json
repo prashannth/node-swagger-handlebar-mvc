@@ -1,0 +1,77 @@
+{
+    "name": "node-swagger-handlebar-mvc",
+    "description": "Bare-bones NodeJS MVC website with Express, Swagger, Angular, RequireJS, Handlebars, Mocha.",
+    "version": "0.0.3",
+    "main": "index",
+    "author": "Prashannth Vijayakumar <vprashannth@ymail.com>",
+    "contributors": [
+        { "name": "Prashannth Vijayakumar", "email": "vprashannth@ymail.com" }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/prashannth/node-swagger-handlebar-mvc.git"
+    },
+    "dependencies": {
+        "express": "*",
+        "node-uuid": "*",
+        "body-parser": "*",
+        "cookie-parser": "*",
+        "method-override": "*",
+        "serve-static": "*",
+        "static-favicon": "*",
+        "swaggy": "*",
+        "async": "*",
+        "lodash": "*",
+        "express3-handlebars": "*",
+        "winston": "*",
+        "nconf": "*",
+        "passport": "*",
+        "passport-local": "*",
+        "passport-remember-me": "*",
+        "passport-facebook": "*",
+        "connect-ensure-login": "*",
+        "express-session": "",
+        "connect-flash": "*"
+    },
+    "devDependencies": {
+        "mocha": "*",
+        "chai": "*",
+        "sinon-chai": "*",
+        "supertest": "*",
+        "jsdom": "*",
+        "grunt": "*",
+        "grunt-release": "*",
+        "grunt-shell": "*",
+        "grunt-simple-mocha": "*",
+        "grunt-node-inspector": "*",
+        "grunt-concurrent": "*"
+    },
+    "scripts": {
+        "postinstall": "bower install",
+        "postupdate": "bower update",
+        "start": "node index",
+        "test": "grunt test"
+    },
+    "keywords": [
+        "website",
+        "template",
+        "mvc",
+        "node",
+        "angular",
+        "requirejs",
+        "handlebars",
+        "mocha",
+        "swagger"
+    ],
+    "bugs": {
+        "email": "vprashannth@ymail.com",
+        "url": "https://github.com/prashannth/node-swagger-handlebar-mvc/issues"
+    },
+    "license": {
+        "type": "MIT",
+        "url": "http://github.com/prashannth/node-swagger-handlebar-mvc/blob/master/LICENSE"
+    },
+    "engines": {
+        "node": "0.10.x"
+    }
+}

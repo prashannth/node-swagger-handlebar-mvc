@@ -1,0 +1,14 @@
+{
+    "name": "node-swagger-handlebar-mvc",
+    "version": "0.0.1",
+    "dependencies": {
+        "requirejs": "*",
+        "requirejs-text": "*",
+        "angular": "*",
+        "angular-route": "*",
+        "swagger-ui": "*",
+        "bootstrap": "*",
+        "json-editor": "*",
+        "superagent": "*"
+    }
+}
