@@ -1,7 +1,14 @@
-node-swagger-handlebar-mvc
-=====================
+#NodeJS Barebone MVC App
 
 Bare-bones NodeJS MVC website with Express, Swagger, Angular, RequireJS, Handlebars, Mocha.
+
+##Installation
+
+```npm install```
+
+##Running
+
+```npm start```
 
 License
 =======
